@@ -9,7 +9,7 @@ const Todo = ({ project, page }) => {
 
   // Function to add a new todo
   const addTodo = () => {
-    setTodos([...todos, newTodo]);
+    setTodos([...todos, { todoDescription: newTodo, project, page }]);
     setNewTodo("");
   };
 
@@ -22,7 +22,9 @@ const Todo = ({ project, page }) => {
       <button onClick={addTodo}>Add Todo</button>
       <ul>
         {todos.map((todo, index) => (
-          <li key={index}>{todo}</li>
+          <li
+            key={index}
+          >{`${todo.project.name} - ${todo.page.name} - ${todo.todoDescription}`}</li>
         ))}
       </ul>
     </div>

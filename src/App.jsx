@@ -25,7 +25,7 @@ const App = () => {
     if (selectedProject) {
       const fetchPages = async () => {
         const pages = await getPages(selectedProject.id);
-        setPages(pages);
+        setPages(pages.children);
       };
       fetchPages();
     }
@@ -47,7 +47,7 @@ const App = () => {
 
   // Render project selection dropdown
   const renderProjectSelection = () => (
-    <div className="select-container">
+    <div className="container">
       <select onChange={handleProjectSelect}>
         <option>Select a project</option>
         {projects.map((project) => (
@@ -62,7 +62,7 @@ const App = () => {
   // Render page selection dropdown
   const renderPageSelection = () =>
     selectedProject && (
-      <div className="select-container">
+      <div className="container">
         <select onChange={handlePageSelect}>
           <option>Select a page</option>
           {pages.map((page) => (

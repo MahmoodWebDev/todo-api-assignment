@@ -3,6 +3,7 @@
 body {
   background-color: #f0f0f0;
   font-family: Arial, sans-serif;
+  color: black;
 }
 
 .container {
@@ -15,7 +16,7 @@ body {
 select,
 input,
 button {
-  margin: 10px 0;
+  margin: 5px;
   padding: 10px;
   border: none;
   border-radius: 5px;
