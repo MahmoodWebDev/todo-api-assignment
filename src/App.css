@@ -1,0 +1,55 @@
+/* src/App.css */
+
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+select,
+input,
+button {
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+select {
+  background-color: #e0e0e0;
+  color: black;
+}
+
+input {
+  background-color: #e0e0e0;
+  color: black;
+}
+
+button {
+  background-color: #90ee90;
+  color: black;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #7ccd7c;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+@media (min-width: 600px) {
+  .container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
