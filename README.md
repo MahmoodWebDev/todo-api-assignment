@@ -1,4 +1,4 @@
-# React Todo App
+# React Todo API App
 
 ## Overview
 
@@ -68,7 +68,7 @@ Live: (https://todo-api-assignment.vercel.app/)
 
 ## Author
 
-[Mahmood Shah]
+Mahmood Shah
 
 ## License
 
