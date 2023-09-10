@@ -64,7 +64,7 @@ This project is a React app API-based Todo application that allows users to mana
 
 ## Demo
 Live: (https://todo-api-assignment.vercel.app/)
-![Live Demo] ()
+![Live Demo](https://github.com/MahmoodWebDev/todo-api-assignment/blob/main/todo-demo.png)
 
 ## Author
 
