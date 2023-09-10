@@ -28,7 +28,7 @@ This project showcases a sophisticated Todo application built on React and power
 
 1. Clone the repository
     ```bash
-    git clone <[repository_url](https://github.com/MahmoodWebDev/todo-api-assignment)>
+    git clone <(https://github.com/MahmoodWebDev/todo-api-assignment)>
     ```
 
 2. Navigate to the project directory
