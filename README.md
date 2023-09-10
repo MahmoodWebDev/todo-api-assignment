@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a React app API-based Todo application that allows users to manage their daily tasks. It was a part of home-assignment in a technical interview.
+This project showcases a sophisticated Todo application built on React and powered by an API. Originally conceived as a home assignment for a technical interview, the app serves as an elegant solution for managing daily tasks.
 
 
 
