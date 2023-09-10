@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a React-based API-based Todo application that allows users to manage their daily tasks. It was a part of home-assignment in a technical interview.
+This project is a React app API-based Todo application that allows users to manage their daily tasks. It was a part of home-assignment in a technical interview.
 
 ![Live Demo](https://todo-api-assignment.vercel.app/)
 
